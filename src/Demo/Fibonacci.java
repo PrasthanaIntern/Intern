@@ -1,17 +1,20 @@
-package Demo;
+
 public class Fibonacci {
-    static int a,b,c;
-    public static void fib(int a,int b){
-        if(a+b<100){
-          c=a+b;
-            System.out.println(c);
-            a=b;
-            b=c;
-            fib(a,b);
+    static int i, j, k;
+
+    public static void fib(int i, int j) {
+        System.out.println("Fibonacci Program");
+        if (i + j < 100) {
+            c = i + j;
+            System.out.println(k);
+            i = j;
+            i = j;
+            fib(i, j);
         }
     }
+
     public static void main(String[] args) {
-        System.out.println(a +"\n" + ++b);
-        fib(a,b);
+        System.out.println(i + "\n" + ++j);
+        fib(i, j);
     }
 }
