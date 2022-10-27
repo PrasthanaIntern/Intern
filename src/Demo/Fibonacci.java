@@ -1,6 +1,8 @@
 
 public class Fibonacci {
-    static int i, j, k;
+    static int i;
+    static int j;
+    static int k;
 
     public static void fib(int i, int j) {
         System.out.println("Fibonacci Program");
@@ -8,7 +10,7 @@ public class Fibonacci {
             c = i + j;
             System.out.println(k);
             i = j;
-            i = j;
+            j = k;
             fib(i, j);
         }
     }
